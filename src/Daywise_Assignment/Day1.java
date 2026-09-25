@@ -26,12 +26,20 @@ public class Day1 {
 				//Build a salary calculator:
 				int basic = 50000;
 				int bonus = 5000;
-				 tax = 10%;
+				double tax = 0.1;
 				// gross = basic + bonus 
 						int gross = 55000;
 						
 				//print gross, tax and net salary.
 						System.out.println(gross);
+						//tax = 10% of gross;
+					double 	Tax = tax * gross;
+						System.out.println(Tax);
+						//Net = Gross -Tax
+						double Net = gross - Tax;
+						System.out.println(Net);
+						
+						
 						
 	}
 

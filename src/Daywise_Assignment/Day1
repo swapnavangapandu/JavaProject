@@ -1,0 +1,24 @@
+Q1. An e-commerce application stores product quantity. Which data type would you choose? What if quantity can be
+2.5?
+A.  I would use "int" datatype to store product quantity. If the quantity is 2.5 then I will use "double"
+
+Q2. A banking system needs to store a very large whole number. What would you check before choosing int or long? 
+A. "Long"
+
+Q3. A tester expected 2.5 from 10/4 but got 2.0. Explain the cause and give two fixes.
+A. We have to provide the value in decimal (Need to give 10.0/4 instead of 10/4).
+
+Q4. Why can float discount = 12.5; fail compilation? Fix it.
+A. For Float values we have to provide F: Expected : 12.5F 
+
+Q5. Explain = versus == using a login example.
+A. 
+
+Q6. For login validation, when would you use && instead of ||?
+A. 
+
+Q7. A counter must use its old value and then increment. Which is appropriate: x++ or ++x? Demonstrate.
+A. We use "x++". Because "x++" , will take the value of "x" first then increments the x value. So we use "X++".
+
+Q8. The program compiles but CMD cannot find the main class. Name three checks.
+A.
