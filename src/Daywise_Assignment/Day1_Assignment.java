@@ -1,6 +1,6 @@
 package Daywise_Assignment;
 
-public class Day1 {
+public class Day1_Assignment {
 
 	public static void main(String[] args) {
 		//What is the output?
@@ -22,6 +22,10 @@ public class Day1 {
 				System.out.println(a++ + ++a); // output : 10 + 12 = 22
 				
 				//Write a program using ?: to print PASS/FAIL.
+				
+				int marks = 35;
+			String result = 	marks>=35 ? "Pass" : "Fail";
+			System.out.println(result);
 				
 				//Build a salary calculator:
 				int basic = 50000;

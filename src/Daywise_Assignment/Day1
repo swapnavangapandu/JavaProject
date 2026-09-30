@@ -1,6 +1,6 @@
 Q1. An e-commerce application stores product quantity. Which data type would you choose? What if quantity can be
 2.5?
-A.  I would use "int" datatype to store product quantity. If the quantity is 2.5 then I will use "double"
+A.  I would use "int" datatype to store product quantity. If the quantity is 2.5 , it is invalid because we cant defined quantity in decimal , error.
 
 Q2. A banking system needs to store a very large whole number. What would you check before choosing int or long? 
 A. "Long"
