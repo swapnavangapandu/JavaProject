@@ -122,27 +122,39 @@ public class Day2_assignment {
 	  
 //Build an e-commerce discount rule: VIP = 10%, standard = 5%, but only when cart >= 2000.
 	  
-	  int cartAmount = 2700;
-	   String customerType = "VIP";
-	   double discount = 0;
-	   if(cartAmount>= 2000) {
-		 if(customerType.equals("VIP")) {
-			 discount = 0.1;
-			   
-		   }
-		 else if (customerType.equals("Standard")) {
-			 
-			 discount = 0.05;
-			 
-		 }
-		   
-	   }
-	   double discountAmount = cartAmount * discount ;
-		double finalAmount = cartAmount - discountAmount;
-		System.out.println(discountAmount);
-		System.out.println(finalAmount);
+		/*
+		 * int cartAmount = 2700; String customerType = "VIP"; double discount = 0;
+		 * if(cartAmount>= 2000) { if(customerType.equals("VIP")) { discount = 0.1;
+		 * 
+		 * } else if (customerType.equals("Standard")) {
+		 * 
+		 * discount = 0.05;
+		 * 
+		 * }
+		 * 
+		 * } double discountAmount = cartAmount * discount ; double finalAmount =
+		 * cartAmount - discountAmount; System.out.println(discountAmount);
+		 * System.out.println(finalAmount);
+		 */
 	  
 //Build a flight booking rule: logged in, seats available, fare> 0, payment successful.
+	Boolean loggedin = true;
+	int seats_Available = 5;
+	int fare = 2500;
+	Boolean payment = true;
+	
+	System.out.println("Enter number of persons");
+int bookingseats = 	sc.nextInt();
+if(loggedin && bookingseats <= seats_Available && fare >0 && payment ) {
+		System.out.println("Booking successfull");
+		
+	}
+else {
+	System.out.println("Booking failed");
+	
+	}
+	
+	
 	
 		 
 		
