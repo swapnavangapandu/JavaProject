@@ -28,16 +28,22 @@ public class factorial {
 		 * } else { System.out.println("Its not Panlindrome"); }
 		 */
 	
-	//Reverse a String;
-	 String str = "swapna"; // anpaws
-	 String revstr  = "";
-	 for (int i = 0; i<=str.length()-1; i++) {
- revstr = str.charAt(i) + revstr;
-	 }
-	System.out.print(revstr);
-	
+		/*
+		 * //Reverse a String; String str = "swapna"; // anpaws String revstr = ""; for
+		 * (int i = 0; i<=str.length()-1; i++) { revstr = str.charAt(i) + revstr; }
+		 * System.out.print(revstr);
+		 */
 
-			
+	//Count the number digits in a number
+	
+	int num  = 477876;
+	int count = 0;
+	while(num>0) {
+		
+		num = num/10;
+		count ++;
+	}
+	System.out.println(count);
 		
 		
 	

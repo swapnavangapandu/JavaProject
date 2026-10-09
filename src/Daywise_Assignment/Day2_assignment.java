@@ -154,10 +154,52 @@ else {
 	
 	}
 	
-	
-	
-		 
+
+//A test may retry up to 3 times. Model retryCount and maxRetry. What should happen at retryCount = 0, 2, 3 and 4?
+		int maxRetry = 3;
+		//int retryCount = 0;
+		for (int retryCount = 0; retryCount<=4; retryCount++) {
+			if(retryCount < maxRetry ) {
+				System.out.println("Retest " + retryCount);
+			}
+			else {
+				System.out.println("limit exceed");
+			}
+			
+			
+		}
+//An API test passes when statusCode == 200 AND responseTime < 2000 AND response body is not null.Convert this into a Java boolean expression.
 		
+		int statusCode = 200;
+		int responseTime = 2500;
+		String responseBody = "{\"status\":\"success\"}";	
+		Boolean result = statusCode == 200 && responseTime <2000 && responseBody != null;
+		System.out.println(result);
+
+//Infant = age <; 2, child = age >= 2 and age <; 12, adult = age >= 12. Which operators and conditions will you se?
+	int infant_Age = sc.nextInt();
+	int childAge =sc.nextInt();
+	int adultAge = sc.nextInt();
+	if(infant_Age<2 && childAge >=2 && childAge<12 && adultAge >=12 ) {
+		 System.out.println( "Allowed");
+		 
+	}
+	else {
+		System.out.println( "age doesn't match");
+	}
+	
+//Displayed amount and charged amount must match for this practice. Which relational operator will you use ?What edge cases would you test?
+	int displayedAmount = sc.nextInt();
+	int chargedAmount = sc.nextInt();
+	int match = displayedAmount -  chargedAmount ;
+	if(match==0 ) {
+		System.out.println("DisplayedAmount and Charged Amount matches");
+		
+	}
+	else {
+		System.out.println("DisplayedAmount and Charged Amount matched by " + match);
+		
+	}
 	
 	}
 }
