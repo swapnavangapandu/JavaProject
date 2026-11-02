@@ -19,7 +19,12 @@ public class Array_2d {
 			}
 			System.out.println();
 			}
-			
+		for (int[] i : num) {
+			for(int j : i) {
+				System.out.print(j + " ");
+			}
+			System.out.println();
+		}
 	}
 
 }

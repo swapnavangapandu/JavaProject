@@ -28,6 +28,7 @@ public class Arrays_2 {
 			System.out.println(num[i]);
 		}
 		
+		
 	}
 
 }

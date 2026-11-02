@@ -2,8 +2,8 @@ package Daywise_classnotes;
 
 public class factorial {
 	public static void main (String[]args) {
-		/*
-		 * //Find factorial of a number //Lets take 7 factorial = 7*6*5*4*3*2*1 int temp
+		
+		 /* //Find factorial of a number //Lets take 7 factorial = 7*6*5*4*3*2*1 int temp
 		 * = 1; for (int i=7; i>=2; i--) { temp = temp * i; // System.out.println(i);
 		 * 
 		 * } System.out.print(temp);
