@@ -3,7 +3,6 @@ package Daywise_classnotes;
 public class Methods_prog {
 	
 	//factorial of a num
-	
 	public static int fact_num(int num) {
 		int fact = 1;
 		for(int i =num; i>1; i--) {
@@ -23,26 +22,12 @@ public class Methods_prog {
 		return p;
 	}
 	
-	 // print 1 - 10 numbers without using loops
-       static void  print_num (int sp, int ep) {
-   
-        	 if(sp>ep) {
-        		 System.out.println("Sp is greater than ep");
-        	 }
-        	 
-        	 else {
-        		 System.out.println(sp);
-        		 sp++;
-        		 print_num(sp,ep);
-        		
-        	 }
-         
-       }
+
 	public static void main(String[]args) {
 		System.out.println(fact_num(6));
 		int op = power_num(5,4);
 		System.out.println(op);
-	    print_num(1, 10);
+	   
 	
 		
 	}
